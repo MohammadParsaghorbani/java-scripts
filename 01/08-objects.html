@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>objects</title>
+    </head>
+    <body bgcolor="#383838">
+        <script>
+            const products = { // look like dictionary in python !!
+                name : "phone",
+                price : 1200
+            };
+            console.log(products);
+            console.log(products.name);
+            console.log(products.price);
+
+            products.name = "laptop";
+            console.log(products.name);
+            console.log(products);
+
+            products.sell_price = 1500
+            console.log(products);
+
+            delete products.sell_price;
+            console.log(products);
+        </script>
+    </body>
+</html>
